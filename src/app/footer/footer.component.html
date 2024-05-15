@@ -1,0 +1,15 @@
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">footer</a>
+    <div class="container">
+      <button 
+      [queryParams]="
+          {
+              info: category
+          }
+      "
+      routerLink="/products"  
+      *ngFor="let category of categories" 
+      class="btn"><samp class="button-content">{{category}}</samp></button>
+      
+  </div>
+  </div>

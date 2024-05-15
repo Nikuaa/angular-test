@@ -1,0 +1,21 @@
+*{
+
+padding: 0;
+box-sizing:border-box;
+font-family: 'Open Sans', sans-serif;
+background-color: grey;
+}
+.container-fluid{
+    position: absolute;
+    margin-top: 40%;
+    height: 30px;
+}
+.container{
+    display: flex;
+    grid-template-rows: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+.navbar-brand{
+  position: absolute;
+  margin-bottom: 10px;
+}
